@@ -3,12 +3,12 @@ new Vue({
   data() {
     return {
       isOpen: false,
-      version: '0.9.2',
+      version: '0.9.3',
       themeList: [
         {
           name: 'Rocky',
           github: 'https://github.com/EryouHao/gridea-theme-rocky',
-          link: 'https://mianbaoduo.com/o/bread/YpWYlJ0=',
+          link: 'https://mbd.pub/o/bread/YpWYlJ0=',
           demo: 'https://gridea-theme-rocky.netlify.com',
           image: '/media/images/theme-images/theme-rocky.jpg',
           include: false,
@@ -19,7 +19,7 @@ new Vue({
         {
           name: 'Line',
           github: 'https://github.com/EryouHao/gridea-theme-line',
-          link: 'https://mianbaoduo.com/o/bread/mbd-Zp6Ulg==',
+          link: 'https://mbd.pub/o/bread/mbd-Zp6Ulg==',
           demo: 'https://gridea-theme-line.netlify.com',
           image: '/media/images/theme-images/theme-line.jpg',
           include: false,
@@ -30,7 +30,7 @@ new Vue({
         // {
         //   name: 'Tech',
         //   github: 'https://github.com/EryouHao/gridea-theme-tech',
-        //   link: 'https://mianbaoduo.com/o/bread/mbd-ZZ2clA==',
+        //   link: 'https://mbd.pub/o/bread/mbd-ZZ2clA==',
         //   demo: 'https://gridea-theme-tech.netlify.com',
         //   image: '/media/images/theme-images/theme-tech.jpg',
         //   include: false,
@@ -41,7 +41,7 @@ new Vue({
         {
           name: 'Walker',
           github: 'https://github.com/EryouHao/gridea-theme-walker',
-          link: 'https://mianbaoduo.com/product/show/mbd-aJqU',
+          link: 'https://mbd.pub/product/show/mbd-aJqU',
           demo: 'https://gridea-theme-walker.netlify.com',
           image: '/media/images/theme-images/theme-walker.jpg',
           include: false,
@@ -49,12 +49,48 @@ new Vue({
           price: '6'
         },
         {
+          name: 'InlineAMP',
+          github: 'https://github.com/jiansing/gridea-theme-inlineamp',
+          demo: 'https://blog.ofo.moe/',
+          image: '/media/images/theme-images/theme-inlineamp.jpg',
+          include: false,
+          isNew: true,
+          showDemo: true,
+        },
+        {
+          name: 'CPlayer-Gallery',
+          github: 'https://github.com/CPlayer-CN/gridea-theme-cplayer-gallery',
+          demo: 'http://gridea.cplayer.tk/demo/cplayer-gallery/',
+          image: '/media/images/theme-images/theme-cplayer-gallery.jpg',
+          include: false,
+          isNew: true,
+          showDemo: true,
+        },
+        {
+          name: 'CPlayer-Material',
+          github: 'https://github.com/CPlayer-CN/gridea-theme-cplayer-material',
+          demo: 'http://gridea.cplayer.tk/blog',
+          image: '/media/images/theme-images/theme-cplayer-material.jpg',
+          include: false,
+          isNew: true,
+          showDemo: true,
+        },
+        {
+          name: 'Fog',
+          github: 'https://github.com/850552586/gridea-theme-fog',
+          demo: 'http://ericam.top',
+          image: '/media/images/theme-images/theme-fog.jpg',
+          include: false,
+          isNew: true,
+          showDemo: true,
+        },
+        {
           name: 'Pure',
           github: 'https://github.com/imhanjie/gridea-theme-pure',
           demo: 'https://imhanjie.com/',
           image: '/media/images/theme-images/theme-pure.jpg',
           include: false,
-          isNew: true,
+          isNew: false,
           showDemo: true,
         },
         {
@@ -63,7 +99,7 @@ new Vue({
           demo: 'https://i.immmmm.com/',
           image: '/media/images/theme-images/theme-breek.jpg',
           include: false,
-          isNew: true,
+          isNew: false,
           showDemo: true,
         },
         {
@@ -72,7 +108,7 @@ new Vue({
           demo: 'https://blog.itjoker.cn/',
           image: '/media/images/theme-images/theme-chic.jpg',
           include: false,
-          isNew: true,
+          isNew: false,
           showDemo: true,
         },
         {
@@ -81,7 +117,7 @@ new Vue({
           demo: 'https://hsxyhao.github.io/',
           image: '/media/images/theme-images/theme-next.jpg',
           include: false,
-          isNew: true,
+          isNew: false,
           showDemo: true,
         },
         {
@@ -90,7 +126,7 @@ new Vue({
           demo: 'https://apa70.com',
           image: '/media/images/theme-images/theme-lin.jpg',
           include: false,
-          isNew: true,
+          isNew: false,
           showDemo: true,
         },
         {
